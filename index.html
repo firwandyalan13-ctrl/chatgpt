@@ -12,83 +12,57 @@
   </head>
   <body>
     <header class="hero" id="home">
+      <div class="hero-layer hero-bg" data-parallax="0.22"></div>
+      <div class="hero-layer hero-water" data-parallax="0.12"></div>
       <div class="hero-overlay"></div>
       <nav class="nav container">
         <p class="brand">DIVE DEEP</p>
         <a class="cta small" href="#spots">探索潜点</a>
       </nav>
-      <div class="hero-content container">
+      <div class="hero-content container reveal">
         <p class="eyebrow">UNDERWATER EXPERIENCE</p>
         <h1>深蓝潜行</h1>
         <p class="subtitle">探索海面之下的静谧世界，从第一次下潜到进阶探险。</p>
         <a class="cta" href="#types">开始探索</a>
       </div>
+      <div class="hero-bottom-glow"></div>
     </header>
 
     <main>
       <section class="section container" id="types">
-        <p class="eyebrow">DIVE STYLES</p>
-        <h2>选择你的潜水方式</h2>
+        <p class="eyebrow reveal">DIVE STYLES</p>
+        <h2 class="reveal">选择你的潜水方式</h2>
         <div class="grid cards">
-          <article class="card">
-            <h3>水肺潜水 Scuba</h3>
-            <p>适合大多数初学者，借助气瓶可延长水下停留时间。</p>
-            <ul>
-              <li>深度：10m–30m</li>
-              <li>认证：OW 起步</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>自由潜 Freediving</h3>
-            <p>只靠一口气下潜，强调呼吸控制、专注与身体协调。</p>
-            <ul>
-              <li>深度：5m–40m+</li>
-              <li>认证：AIDA/SSI</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>沉船潜 Wreck</h3>
-            <p>探索沉船与历史遗迹，兼具冒险感与摄影价值。</p>
-            <ul>
-              <li>深度：18m–40m</li>
-              <li>认证：AOW 建议</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>夜潜 Night Dive</h3>
-            <p>观察白天少见的海洋生物行为，感受完全不同的海底氛围。</p>
-            <ul>
-              <li>装备：主灯+备灯</li>
-              <li>建议：跟随向导</li>
-            </ul>
-          </article>
+          <article class="card reveal"><h3>水肺潜水 Scuba</h3><p>适合大多数初学者，借助气瓶可延长水下停留时间。</p><ul><li>深度：10m–30m</li><li>认证：OW 起步</li></ul></article>
+          <article class="card reveal"><h3>自由潜 Freediving</h3><p>只靠一口气下潜，强调呼吸控制、专注与身体协调。</p><ul><li>深度：5m–40m+</li><li>认证：AIDA/SSI</li></ul></article>
+          <article class="card reveal"><h3>沉船潜 Wreck</h3><p>探索沉船与历史遗迹，兼具冒险感与摄影价值。</p><ul><li>深度：18m–40m</li><li>认证：AOW 建议</li></ul></article>
+          <article class="card reveal"><h3>夜潜 Night Dive</h3><p>观察白天少见的海洋生物行为，感受完全不同的海底氛围。</p><ul><li>装备：主灯+备灯</li><li>建议：跟随向导</li></ul></article>
         </div>
       </section>
 
-      <section class="section band" id="safety">
+      <section class="story section" id="safety">
         <div class="container split">
-          <div>
+          <div class="reveal sticky-title">
             <p class="eyebrow">SAFETY FIRST</p>
             <h2>安全是最重要的潜伴</h2>
             <p>掌握耳压平衡、浮力控制、气体管理与减压规则，让每一次下潜都更从容。</p>
           </div>
-          <ul class="bullet-panel">
-            <li>下潜前：做 Buddy Check</li>
-            <li>上升速率：不超过 9 米/分钟</li>
-            <li>预留安全停留：5 米 3 分钟</li>
-            <li>不触碰海洋生物与珊瑚</li>
-          </ul>
+          <div class="story-steps">
+            <article class="story-step reveal"><span>01</span><h3>下潜前检查</h3><p>做完整 Buddy Check，确认气源、配重与应急流程。</p></article>
+            <article class="story-step reveal"><span>02</span><h3>控制上升节奏</h3><p>上升速度不超过 9 米/分钟，执行 5 米 3 分钟安全停留。</p></article>
+            <article class="story-step reveal"><span>03</span><h3>尊重海洋生态</h3><p>不触碰珊瑚与海洋生物，不投喂，不追逐。</p></article>
+          </div>
         </div>
       </section>
 
       <section class="section container" id="spots">
-        <p class="eyebrow">TOP DESTINATIONS</p>
-        <h2>热门潜点推荐</h2>
+        <p class="eyebrow reveal">TOP DESTINATIONS</p>
+        <h2 class="reveal">热门潜点推荐</h2>
         <div class="grid spots">
-          <article class="spot-card"><h3>科莫多 · 印尼</h3><p>大物天堂，洋流丰富，适合进阶潜水员。</p></article>
-          <article class="spot-card"><h3>诗巴丹 · 马来西亚</h3><p>海龟与鱼群风暴闻名，能见度高。</p></article>
-          <article class="spot-card"><h3>红海 · 埃及</h3><p>珊瑚墙与沉船资源丰富，全年可潜。</p></article>
-          <article class="spot-card"><h3>帕劳 · 太平洋</h3><p>水母湖与蓝角经典路线，生态多样。</p></article>
+          <article class="spot-card reveal"><h3>科莫多 · 印尼</h3><p>大物天堂，洋流丰富，适合进阶潜水员。</p></article>
+          <article class="spot-card reveal"><h3>诗巴丹 · 马来西亚</h3><p>海龟与鱼群风暴闻名，能见度高。</p></article>
+          <article class="spot-card reveal"><h3>红海 · 埃及</h3><p>珊瑚墙与沉船资源丰富，全年可潜。</p></article>
+          <article class="spot-card reveal"><h3>帕劳 · 太平洋</h3><p>水母湖与蓝角经典路线，生态多样。</p></article>
         </div>
       </section>
     </main>
@@ -99,5 +73,7 @@
         <a class="cta small" href="#home">返回顶部</a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
