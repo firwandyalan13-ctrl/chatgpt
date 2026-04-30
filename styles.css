@@ -83,3 +83,33 @@ h2 { font-size: clamp(1.8rem, 3.6vw, 2.8rem); margin-top: 0; }
   .sticky-title { position: static; }
   .hero-content { padding-top: 12vh; }
 }
+
+
+.photo-grid {
+  margin-top: 1.1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.photo {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,.2);
+  background: rgba(255,255,255,.03);
+}
+.photo img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.01);
+  transition: transform .55s ease, filter .55s ease;
+  filter: saturate(1.06);
+}
+.photo:hover img { transform: scale(1.08); filter: saturate(1.2); }
+.photo figcaption {
+  padding: .75rem .9rem;
+  color: #cce1f6;
+  font-size: .92rem;
+}
